@@ -25,7 +25,7 @@ const LineChart = ({ coinHistory, currentPrice, coinName }) => {
         data: coinPrice,
         fill: false,
         backgroundColor: '#51E5FF',
-        borderColor: '#8A2BE2',
+        borderColor: '#9370DB',
       },
     ],
   };
@@ -51,7 +51,7 @@ const LineChart = ({ coinHistory, currentPrice, coinName }) => {
           <Title level={5} className="current-price">Current {coinName} Price: $ {currentPrice}</Title>
         </Col>
       </Row>
-      <Line data={data} options={options} />
+      <Line className="line-chart" data={data} options={options} />
     </>
   );
 };
