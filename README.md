@@ -1,4 +1,4 @@
-# Description
+# CryptoLync
 
 CryptoLync is an app focusing on cryptocurrency news and information.
 
